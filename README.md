@@ -5,9 +5,9 @@ I used the term _Open Process_ because it is similar to _Open Source_ except ins
 
 The technology exists to 'scan' colour and B&W negatives quickly and with very high quality using a digital SLR camera and a good macro lens. Scanning negatives (often quite old negatives) has historically been challenging because even if you had access to a good quality scanner it takes a very long time. Once you get the scan it takes another very long time to get the colours and tones to an acceptable state. With recent software like Negative Lab Pro (an Adobe Lightroom Plugin) this is made much faster and simpler.
 
-Taking a picture of the negative with a good macro lens and SLR camera means that you can get images that are nearly the full resolution of the camera's sensor. In my case I use a camera with an 18MP sensor; nearly all of that is dedicated to capturing the negative. As a result, the final image is nearly a full 18MP, far more than a standard (non-pro) lab would give with their scans. Additionally, you will shoot the image in RAW format which gives a lot of flexibility for adjusting the colours and cropping as you need.
+Taking a picture of the negative with a good macro lens and SLR camera means that you can get images that are nearly the full resolution of the camera's sensor. In my case I use a camera with an 18MP sensor; nearly all of that is dedicated to capturing the negative. As a result, the final image is nearly a full 18MP, more than a standard (non-pro) lab would give with their scans. Additionally, you will shoot the image in RAW format which gives a lot of flexibility for adjusting the colours and cropping as you need.
 
-A high quality macro lens is essential for this process. You want one that has a 1:1 ratio, meaning the lens can focus close enough so that an object 35mm across fits across the entire camera sensor. There is no scaling up needed for a 35mm negative scan then; it is all completely optical enlargement.
+A high quality macro lens is essential for this process. You want one that has a 1:1 ratio, meaning the lens can focus close enough so that an object 35mm across fits across the entire camera sensor. There is no scaling up needed for a 35mm negative scan; it is all completely optical enlargement.
 
 # Equipment List
 For those of you who want to do this yourselves there are lots of resources online but here is a quick list of the equipment I use right now, in case you want to copy my process:
@@ -24,7 +24,7 @@ For those of you who want to do this yourselves there are lots of resources onli
 You could likely get set up with all the hardware you need (used) for less than $1000. Adobe Creative Cloud is an additional $15/month, and Negative Lab Pro is $100 USD (perpetual license). This isn't all that bad especially if you already have some of the equipment. For those who do not have the equipment, I'd like to see a network of local friends who would be willing to scan others' negatives for a small fee. I have a suggested fee structure below for those who want to maybe do this for others - it is not lucrative but it is enough of an incentive to make it worthwhile.
 
 # Obvious Improvements
-Some equipment improvements would likely help with efficiency, and likely with overall quality of the scans. Thankfully the biggest factor is the macro lens; there are no improvements I need to make in that area. However, others are:
+Some equipment improvements would likely help with efficiency, and likely with overall quality of the scans. Thankfully for me the biggest factor is the macro lens; there are no improvements I need to make in that area. However, others are:
 1. Canon T3i --> [Canon EOS RP](https://www.canon.ca/en/product?name=EOS_RP&category=/en/products/Cameras/Mirrorless-Cameras) Mirrorless Full Frame camera body. Not a huge increase in MP but would improve ease of use for sure and may squeeze out a bit of extra detail from very high quality negatives.
 2. Smartphone backlight --> [Skier Copy Box](http://skier.com.tw/web/shop/shop_in.jsp?pd_id=PD1599461016799) backlight and negative holder. This would also replace the (admittedly awesome) Lego holder. This is the first upgrade I would like to tackle as it would have probably the most direct impact on final image quality due to the fact that the light is brighter and gives better colour reproduction. There are other options for backlights but if they're cheaper they're not worth getting, and if they're more expensive they're _a lot_ more expensive!
 3. Manfrotto tripod --> [Copy stand](http://skier.com.tw/web/shop/shop_in.jsp?pd_id=PD1600329566638). This is not going to give any improvement to image quality but would make setup and alignment an awful lot easier.
@@ -65,6 +65,7 @@ Metadata for the image could include the frame number, job number, group number,
 9. Place negative holder over light source
 10. Using a test negative strip set up the placement and height of the negative holder to maximize the area of the frame, while leaving a small amount of border for white balance control.
 11. Set camera to autofocus, ISO 100 (or lowest), and f/8 aperture priority. Ensure exposure is set to middle (not over/under) and no additional in-camera settings like saturation etc. (all neutral).
+    * TBD on the exposure settings. It may be better to use +1 exposure, and may also be better to use identical exposure for all frames instead of using aperture priority. Need to do some tests on that.
 12. Test focus with the test negative strip, and remove the test negative strip. If a shot was taken, delete the test shot from the group folder.
 
 ### At the Start of a Group
@@ -78,7 +79,7 @@ These should be strips of 2 frames or more only, not sure how to do individual n
 1. Put on gloves
 2. Grab negative strip from group (sheet, loose, whatever)
 3. Blow dust off with blower
-4. Wipe with anti-static brush
+4. Wipe with anti-static brush (maybe overkill if using the blower)
 5. Insert strip into negative holder, emulsion side up
 6. Focus and confirm placement of negative frame
 7. Take shot
@@ -86,7 +87,43 @@ These should be strips of 2 frames or more only, not sure how to do individual n
 9. Remove strip from negative holder and place back into the sheet (or wherever it came from)
 
 ### At End of Group
-1. In Lightroom, select all the scans and mirror them (since the scans were done emulsion side up)
-2. Mark the group id on the group (either sticky note, writing on the group page itself, etc.)
-3. Go back to 'At start of group' section if scanning more groups
+1. Mark the group id on the group (either sticky note, writing on the group page itself, etc.)
+2. Go back to 'At start of group' section if scanning more groups
 
+### When Scanning is Complete
+1. In Lightroom, select all the scans and mirror them (since the scans were done emulsion side up)
+2. Work magic with Negative Lab Pro, colours and tone balancing! And maybe some manual dust removal.
+
+# Proposed Fee Structure
+If you want to do this for others, here's a very basic fee structure to use as a baseline. This tries to stay somewhat close to other alternative scanning services (like those that send offshore) but will necessarily be a little bit higher. Compensating for this is the (proposed) practice of working very locally and picking up negatives from folks in person, then delivering them back when they're complete.
+
+Generally there should be a $5.00 minimum charge to avoid the hassle of having to scan a single strip of 4 negatives for a buck.
+
+_However_, I suggest providing a free strip of 4 negatives to people who are curious about what the quality might be like. This should be with the full scan service to illustrate the quality of the process and let them decide whether it's worth them spending more money to get a bunch of rolls digitized.
+
+## Raw Scanning Service
+Raw scans would be done for $0.25 each.
+
+Raw scans are literally just the scanned image. The colours have not been inverted, the white balance has not been set, no cropping has been done. The only processing is mirroring the image in Lightroom because they've been scanned emulsion side up (effectively upside down). These are supplied in the RAW format of your camera. In the case of Canon these will be CR2 files.
+
+This service is suitable for those who are comfortable with image editing software on their own and are happy doing all of the colour inversion and balancing themselves. They may even want to get started with Lightroom and Negative Lab Pro for a smaller financial investment, but they don't want the larger investment of the hardware.
+
+This is pretty good value for that sort of person, with a roll of 24 frames coming in at $6.00.
+
+## Basic Scanning Service
+Basic scans are $0.50 each.
+
+Basic scans take the RAW files, white balance, invert, and colour balance them using Negative Lab Pro. This will result in a positive image that is reasonably well colour balanced, though it will probably be a bit flat because no custom colour or tonal balancing will be done on a per-image basis. No cropping will be done on the positive image (giving the person flexibility to crop as they wish).
+
+This service is suitable for those who like to tweak brightness and contrast settings on their own in a basic or advanced photo editor. It also is suitable for those who use Lightroom, Photoshop, or another image editing program but do not want to bother with purchasing and learning how to use dedicated software like Negative Lab Pro. It also would be good for people who want to post photos to Flickr or Instagram or somewhere else, and apply creative filters from those platforms along the way.
+
+In addition to the negative-image RAW files, positive-image TIF files are delivered.
+
+## Full Scanning Service
+Full scans are $1.00 each.
+
+This takes the basic scans and adds custom colour balancing, tonal balancing, cropping, and some manual dust removal. The result of these scans should be images that are colour accurate and have good pleasing tonal range. They are supplied as cropped and rotated JPG files suitable for posting, emailing, printing, or what have you.
+
+In addition to the JPG files, the negative-image RAW files, and flat positive-image TIF files are delivered. There is another TIF file delivered which matches the edits made before the final JPG conversion. This is 4 images altogether.
+
+This can be pretty time consuming but it is correspondingly expensive.
