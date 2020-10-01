@@ -1,0 +1,2 @@
+Job: JOB_2020_09_30
+Details: Details about the group, such as when it was, what roll it was from, etc.

@@ -1,0 +1,5 @@
+Save scans done for others in this directory with the following hierarchy:
+
+Personlastname_001 (002, 003... if multiple)
+ - JOB_yyyy_mm_dd
+  - GRP_001 (002, 003... if multiple)
